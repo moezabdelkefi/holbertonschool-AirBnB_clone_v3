@@ -2,7 +2,6 @@
 """ status for api """
 from flask import Flask
 from models import storage
-from api.v1.views import app_views
 from flask import jsonify
 import os
 from flask_cors import CORS
